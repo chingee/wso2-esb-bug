@@ -4,7 +4,7 @@
 
 > 依赖包: $ESB_HOME/repository/components/plugins
 
-1. 处理了datamapper引擎包的JS引擎池在出错后回收丢失的问题,而导致初始化的资源耗尽
+1. 处理了datamapper引擎包的JS引擎池在出错后回收丢失的问题,而导致初始化的资源耗尽(这个问题在ei的6.3.0解决)
 
 - org.wso2.carbon.mediator.datamapper.engine_4.6.6.jar
 
