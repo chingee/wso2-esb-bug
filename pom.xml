@@ -1,0 +1,65 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.apache.synapse.chingee</groupId>
+	<artifactId>wso2-chingee</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+
+	<name>wso2-chingee</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.apache.synapse/synapse-core -->
+		<dependency>
+			<groupId>org.apache.synapse</groupId>
+			<artifactId>synapse-core</artifactId>
+			<version>3.0.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.synapse/synapse-samples -->
+		<dependency>
+			<groupId>org.apache.synapse</groupId>
+			<artifactId>synapse-samples</artifactId>
+			<version>3.0.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.wso2.carbon/org.wso2.carbon.ui -->
+		<dependency>
+			<groupId>org.wso2.carbon</groupId>
+			<artifactId>org.wso2.carbon.ui</artifactId>
+			<version>4.4.31</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.wso2.carbon/org.wso2.carbon.tomcat 
+		<dependency>
+			<groupId>org.wso2.carbon</groupId>
+			<artifactId>org.wso2.carbon.tomcat</artifactId>
+			<version>4.2.0</version>
+		</dependency>-->
+		<!-- https://mvnrepository.com/artifact/org.wso2.carbon/org.wso2.carbon.server 
+		<dependency>
+			<groupId>org.wso2.carbon</groupId>
+			<artifactId>org.wso2.carbon.server</artifactId>
+			<version>4.2.0</version>
+		</dependency>-->
+		<!-- https://mvnrepository.com/artifact/org.wso2.carbon.mediation/org.wso2.carbon.mediator.bam.ui.feature -->
+		<dependency>
+			<groupId>org.wso2.carbon.mediation</groupId>
+			<artifactId>org.wso2.carbon.mediator.bam.ui.feature</artifactId>
+			<version>4.6.48</version>
+			<type>pom</type>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>
